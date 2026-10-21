@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+models/*
+.streamlit/secrets.toml
+.env
+.DS_Store
+
+# Local development backups and temporary scripts
+app_backup_*.py
+patch_*.py
+
+# Include the public UCI dataset for cloud deployment
+!data/raw/Online Retail.xlsx
